@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Authors>Pedro Cavaleiro</Authors>
+        <Description>Allows communication with Kick Streaming API</Description>
+        <Copyright>Pedro Cavaleiro © 2023</Copyright>
+        <Company>Pedro Cavaleiro</Company>
+        <Product>Kick Streaming</Product>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="WebSocketSharper" Version="1.0.42" />
+    </ItemGroup>
+
+</Project>
