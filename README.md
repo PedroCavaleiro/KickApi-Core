@@ -14,3 +14,6 @@ It requires [CycleTLS](https://github.com/Danny-Dasilva/CycleTLS) to be running 
 * index
 
 Depending on your platform (you must have NodeJS installed)
+
+**NOTE**
+This project will no longer be updated since Kick is taking too long to release it's API
